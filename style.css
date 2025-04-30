@@ -1,3 +1,5 @@
+
+
 .container {
     width: 1140px;
     margin: 0 auto;
@@ -7,4 +9,34 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.header {
+    background-color: white;
+}
+
+body {
+    background-color: black;
+}
+
+.logo {
+    display: flex;
+}
+
+a {
+    margin: 18px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+#cover {
+    background-image: url(src/background.png);
+    height: 763px;
+    display: flex;
+    align-items: center;
+}
+
+.cover-content {
+    color: white;
 }
