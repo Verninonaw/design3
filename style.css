@@ -50,6 +50,11 @@ a {
     align-items: center;
 }
 
+.text-cover {
+    color: white;
+    font-size: 20px;
+}
+
 .cover-content {
     color: white;
 }
@@ -103,7 +108,16 @@ h1 {
     font-size: 24px;
     color: white;
     border: 0;
+}
 
+#models button:hover {
+    width: 268px;
+    height: 49px;
+    border-radius: 25px;
+    background-color: #ff6a00;
+    font-size: 24px;
+    color: white;
+    border: 0;
 }
 
 .model-grid {
@@ -381,4 +395,190 @@ margin: 0;
 #footer-catalog {
     background-color: rgb(63, 63, 63);
     color: white;
+}
+
+#login, #reg {
+    color: white;
+    margin-bottom: 75px;
+}
+
+#login h2 {
+    color: gray;
+}
+
+.login-text {
+    text-align: center;
+    margin-top: 45px;
+}
+
+.login-pole {
+    background-color: #101010;
+    padding: 20px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    box-sizing: border-box;
+    width: 955px;
+    height: 611px;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+
+#login h3 {
+font-size: 60px;
+margin: 0;
+}
+
+#login input {
+    padding: 10px;
+    border: 2px gray;
+    border-radius: 30px;
+    background-color: #242424;
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+    width: 754px;
+    height: 43px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+
+
+#login button {
+    width: 774px;
+    height: 66px;
+    border-radius: 25px;
+    background-color: #EE660C;
+    font-size: 24px;
+    color: white;
+    border: 0;
+    margin-top: 25px;
+}
+
+#login button:hover {
+    width: 774px;
+    height: 66px;
+    border-radius: 25px;
+    background-color: #ff6a00;
+    font-size: 24px;
+    color: white;
+    border: 0;
+    margin-top: 25px;
+}
+
+
+.wrong-password {
+    font-size: 18px;
+}
+
+#login p {
+    color: gray;
+}
+
+.dont-reg {
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+.reg-pole {
+    background-color: #101010;
+    padding: 20px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    box-sizing: border-box;
+    width: 955px;
+    height: 899px;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+
+#reg h3 {
+    font-size: 60px;
+    margin: 0;
+    }
+    
+#reg input {
+        padding: 10px;
+        border: 2px gray;
+        border-radius: 30px;
+        background-color: #242424;
+        color: white;
+        font-size: 20px;
+        margin: 10px;
+        width: 754px;
+        height: 43px;
+        padding-left: 20px;
+        margin-bottom: 25px;
+}
+    
+#reg button {
+        width: 774px;
+        height: 66px;
+        border-radius: 25px;
+        background-color: #EE660C;
+        font-size: 24px;
+        color: white;
+        border: 0;
+        margin-top: 25px;
+    }
+    #reg button:hover {
+        width: 774px;
+        height: 66px;
+        border-radius: 25px;
+        background-color: #ff6a00;
+        font-size: 24px;
+        color: white;
+        border: 0;
+        margin-top: 25px;
+    }
+
+#reg h2 {
+        color: gray;
+    }
+
+#reg p {
+    color: gray;
+}
+
+button:hover {
+    width: 367px;
+    height: 66px;
+    border-radius: 25px;
+    background-color: #ff6a00;
+    font-size: 24px;
+    color: white;
+    border: 0;
+}
+
+.login-btn:hover {
+    width: 120px;
+    height: 40px;
+    background-color: #ff6a00;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.btn-inp:hover {
+    width: 774px;
+    height: 66px;
+    border-radius: 25px;
+    background-color: #ff6a00;
+    font-size: 24px;
+    color: white;
+    border: 0;
+    margin-top: 25px;
 }
